@@ -1,6 +1,81 @@
 {
   "resultats": [
     {
+      "id": "194JMRR",
+      "intitule": "Data analyste ou ingénieur Data en apprentissage (H/F)",
+      "description": "Contrat d'apprentissage 12 mois\n\nVous êtes intéressé(e) par le numérique, les nouveaux usages et leurs applications dans le domaine de la santé, et recherchez une alternance en tant qu'ingénieur data ou data analyste ? Rejoignez-nous !\n\nLe Groupement Régional e-Santé Bretagne \n\nCréé en 2007 par des fédérations de professionnels et d'établissements de santé, le GCS e-Santé Bretagne est un organisme régional à but non lucratif, qui accompagne tous les professionnels de santé bretons dans la mise en place et l'utilisation de solutions numériques adaptées.\nLa e-Santé vit aujourd'hui un tournant majeur ! À l'écoute des besoins de son territoire, le GCS déploie des solutions de e-santé permettant de faciliter les échanges entre professionnels et ainsi, la coordination du parcours de soin du patient.\n\nVous voulez en savoir plus, suivez le lien : https://www.esante-bretagne.fr/nous-connaitre/notre-organisation/\n\nLa valorisation des données prend aujourd'hui une place stratégique dans nos activités, en soutien à la gouvernance, à l'analyse d'impact et à l'amélioration continue de nos services numériques.\n\nVos missions\nEn tant qu'alternant(e) Data Analyste / Ingénieur(e) Data, vous participerez activement à la fiabilisation, à l'optimisation et à l'automatisation de notre chaîne de\ntraitement de données, ainsi qu'à la création d'indicateurs et tableaux de bord pour piloter l'activité. \n - Vous participez à la maintenance et à l'évolution des pipelines de traitement de données (ETL/ELT)\n - Vous assurez le contrôle de qualité et de cohérence des données à chaque étape\n - Vous automatisez les processus de transformation et de nettoyage de données\n - Vous concevez, mettez à jour et améliorez les tableaux de bord de pilotage (KPI,suivi d'activité.)\n - Vous collaborez avec les équipes métiers pour identifier les besoins et proposer des indicateurs pertinents\n - Vous contribuez à l'industrialisation et à la documentation de la plateforme de données\n\nLes compétences\nVous préparez un diplôme de niveau Bac+3 à Bac+5 en informatique, data management, statistique, . vous serez intégré à la cellule Transformation et vous serez amené à travailler avec l'ensemble des acteurs du groupement.\nUne bonne maitrise de SQL et des outils de data visualisation, une connaissance des principes d'ETL et de pipelines de données sont un plus.\nVous souhaitez développer vos compétences dans un environnement dynamique et d'intérêt général, vous faite preuve de rigueur, du sens du détail et d'analyse.\nOrganisé(e) et curieux(se), vous disposez d'une bonne capacité d'adaptation et de synthèse.\n\nLes avantages\nJusqu'à 3 jours de télétravail par semaine\nTitres restaurants\n\nNous vous remercions d'adresser un dossier (CV + lettre de motivation) à : recrutement@\nesante-bretagne.fr",
+      "dateCreation": "2025-06-24T17:07:41.651Z",
+      "dateActualisation": "2025-06-24T17:07:42.054Z",
+      "lieuTravail": {
+        "libelle": "35 - Rennes",
+        "latitude": 48.110899,
+        "longitude": -1.68365,
+        "codePostal": "35700",
+        "commune": "35238"
+      },
+      "romeCode": "M1419",
+      "romeLibelle": "Data analyst",
+      "appellationlibelle": "Data analyst",
+      "entreprise": {
+        "nom": "GCS E-SANTE BRETAGNE",
+        "entrepriseAdaptee": false
+      },
+      "typeContrat": "CDD",
+      "typeContratLibelle": "CDD - 12 Mois",
+      "natureContrat": "Contrat apprentissage",
+      "experienceExige": "D",
+      "experienceLibelle": "Débutant accepté",
+      "formations": [
+        {
+          "niveauLibelle": "Bac+3, Bac+4 ou équivalents",
+          "exigence": "S"
+        }
+      ],
+      "salaire": {
+        "commentaire": "Selon grille conventionnelle",
+        "complement1": "Chèque repas",
+        "complement2": "Autre"
+      },
+      "dureeTravailLibelle": "35H/semaine\nTravail en journée",
+      "dureeTravailLibelleConverti": "Temps plein",
+      "alternance": true,
+      "contact": {},
+      "agence": {},
+      "nombrePostes": 1,
+      "accessibleTH": false,
+      "deplacementCode": "2",
+      "deplacementLibelle": "Ponctuels",
+      "qualificationCode": "5",
+      "qualificationLibelle": "Employé non qualifié",
+      "codeNAF": "63.11Z",
+      "secteurActivite": "63",
+      "secteurActiviteLibelle": "Traitement de données, hébergement et activités connexes",
+      "qualitesProfessionnelles": [
+        {
+          "libelle": "Etre force de proposition",
+          "description": "Capacité à initier, imaginer des propositions nouvelles pour résoudre les problèmes identifiés ou améliorer une situation. Être proactif."
+        },
+        {
+          "libelle": "Faire preuve d'autonomie",
+          "description": "Capacité à prendre en charge son activité sans devoir être encadré de façon continue (le cas échéant, à solliciter les autres acteurs de l'entreprise)."
+        },
+        {
+          "libelle": "Faire preuve de rigueur et de précision",
+          "description": "Capacité à réaliser des tâches en suivant avec exactitude les règles, les procédures, les instructions qui ont été fournies, sans réaliser d'erreur et à transmettre clairement des informations. Se montrer ponctuel et respectueux des règles de savoir-vivre usuelles."
+        }
+      ],
+      "origineOffre": {
+        "origine": "1",
+        "urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/194JMRR"
+      },
+      "offresManqueCandidats": false,
+      "contexteTravail": {
+        "horaires": [
+          "35H/semaine\nTravail en journée"
+        ]
+      }
+    },
+    {
       "id": "194JJWD",
       "intitule": "Expert Data & Support Marketing (H/F)",
       "description": "Peters Surgical fait désormais partie d'Advanced Medical Solutions (AMS). Ensemble, nous développons, fabriquons et distribuons des adhésifs tissulaires, des sutures, des hémostats, des biocéramiques, des dispositifs de fixation interne, des produits d'étanchéité interne et des pansements pour le traitement des plaies. Notre travail quotidien consiste à améliorer la qualité des soins aux patients en contribuant à la réussite de la procédure chirurgicale et en développant des dispositifs médicaux performants et des services associés.\n\nLeader mondial dans le domaine des dispositifs médicaux, AMS/PS emploie plus de 1500 personnes dans le monde et distribue ses produits dans plus de 90 pays.\n\nExpert Data & Support Marketing\nBilingue Anglais\n\nEn tant qu'Expert Data & Support Marketing chez AMS, vous serez rattaché(e) au Responsable du Workstream portefeuille Janus.\n\nVos missions seront les suivantes : \n\n- Soutenir les responsables du portefeuille Janus\n- Créer les contenus data nécessaires à partir des systèmes BI existants et analyser les données de façon à ce que les utilisateurs puissent comprendre les résultats et prendre des décisions\n- Prendre en charge la gestion d'une base de données centrale Excel SKU-SKU comportant plusieurs centaines de milliers de points de données, outil clé pour le projet Janus\n- Optimiser les données en alignement avec les objectifs définis du projet Janus\n- Reporting et documentation, y compris la gestion et le contrôle des demandes de changements initiées\n- Support pour les tâches marketing nécessaires\n\nResponsabilités principales\n\n- Être membre de l'équipe workstream du portefeuille Janus. Interagir également avec le Directeur Catégorie et le Directeur Marketing des catégories Suture, Clip, VTO. Collaborer avec d'autres workstreams Janus si nécessaire\n- Travailler étroitement avec les responsables du portefeuille Janus pour les aider à remplir leurs missions et respecter leurs délais. Créer les contenus data demandés à partir du système BI et analyser les données pour permettre des prises de décision basées sur des chiffres et des faits\n- Être responsable et leader de la base de données centrale Excel SKU-SKU (plusieurs centaines de milliers de points de données), outil clé du projet Janus. Collaborer avec l'IT pour transférer ce fichier Excel vers un outil IT plus stable et professionnel capable de gérer autant de données\n- Optimiser les données conformément aux objectifs Janus : identifier et corriger erreurs ou incohérences en collaboration avec les responsables workstream, dans tous les endroits nécessaires, jusqu'à mise en place d'une solution IT finale. Éviter les inefficacités\n- Capable de créer et lire des rapports et, si nécessaire, initier des demandes de changements pour corriger données et erreurs dans les systèmes ERP liés. Soutenir et contrôler la mise en œuvre de ces changements selon les processus définis\n- Identifier et éliminer les désalignements, gérer les changements historiques non finalisés dans l'ERP. Initier les demandes de changement pour marquer les codes à supprimer si nécessaire\n- Support pour les tâches marketing liées au projet Janus et au nouveau branding :\n\na. Création de brouillons de lettres clients\nb. Pack shots & matériel photo\nc. Impacts du rebranding des Sutures et CI\nd. Mise à jour de contenu\n\n Diplôme de niveau Bachelor ou formation commerciale équivalente, ou expérience professionnelle dans l'industrie\n Compétences analytiques supérieures à la moyenne pour l'analyse du portefeuille suture (basée sur chiffres et faits)\n Maîtrise avancée de MS Office, notamment Excel très poussé et sensible aux détails\n Expertise dans l'utilisation de logiciels IT et applicatifs business basés sur navigateur\n Grande motivation personnelle, organisation rigoureuse, sens des responsabilités, fiabilité, durabilité, attitude positive « can do »,",
@@ -12993,93 +13068,6 @@
           "Autre"
         ]
       }
-    },
-    {
-      "id": "192RMKZ",
-      "intitule": "Alternant Data Analyst H/F (H/F)",
-      "description": "Le GIE SESAM-Vitale recherche son Alternant(e) Data Analyst H/F pour un poste en contrat d'apprentissage au Mans.\n\nRejoignez le GIE SESAM-Vitale et donnez du sens à votre carrière ! \n\nVous souhaitez contribuer à la transformation numérique de notre système de santé ? Vous aimez relever des défis dans un environnement innovant et bienveillant ? Alors ce contrat d'apprentissage est fait pour vous !\n\nQui sommes-nous ?\n\nLe GIE SESAM-Vitale, créateur de la carte Vitale, est un acteur majeur de l'e-santé en France. Nous facilitons le quotidien des patients et des professionnels de santé en déployant des services essentiels comme la facturation SESAM-Vitale, le Dossier Médical Partagé (DMP) et l'appli carte Vitale sur smartphone.\n\n- Plus de 220 collaborateurs passionnés\n- 80% d'ingénieurs et spécialistes\n- Des projets nationaux à fort impact\n- Une localisation idéale : Le Mans, à deux pas de la gare TGV (1h de Paris, moins d'une heure de Rennes, 45 min d'Angers)\n\n\n\nVos missions\n\nLe GIE SESAM-Vitale fait appel à un prestataire pour vérifier l'identité de la personne qui souhaite activer son application Carte Vitale. Ce processus, appelé enrôlement, s'appuie sur un flux vidéo permettant de s'assurer que la pièce d'identité présentée est authentique et que la personne qui se présente, via un selfie, correspond bien à la pièce d'identité.\nLe bon déroulement de ce processus de vérification d'identité dépend de plusieurs facteurs : la qualité du smartphone et de la connexion internet de l'utilisateur, la clarté des instructions données, et la performance du service en ligne qui gère les vérifications.\n\nL'alternant (e) devra créer un système d'analyse de données pour suivre la qualité de service du prestataire et identifier les axes d'amélioration. Les missions porteront sur les activités suivantes :\n\n- Modéliser le processus, depuis le lancement de la vidéo par l'utilisateur jusqu'à la vérification du dossier par un opérateur, par l'identification des différentes étapes et leur enchaînement,\n- Organiser la collecte et structurer les données disponibles et nécessaires au suivi qualité\n- Définir les indicateurs statistiques de suivi, y compris les règles de calcul sur la base des données disponibles\n- Mettre en évidence les points de faiblesse et identifier les axes d'amélioration\n- Suivre l'effet des actions correctives\n- Mettre en place un tableau de bord de suivi de la qualité de service de l'industriel (principaux KPI à usage interne et à destination de la MOA)\n\nVous travaillerez principalement avec :\n- Une base de données MySQL ou PostgreSQL\n- Des outils de visualisation comme QlickView\n- Excel pour des analyses ciblées\n- Notre plateforme ELK existante comme source principale de données\n\nVotre profil\n\n- Étudiant(e) en 1ère ou 2ème année de Master en Data Science, traitement de l'information ou Data Management\n- Formation en école d'ingénieur ou université\n- Curiosité et rigueur analytique\n- Capacité de synthèse à partir de données complexes\n - Intérêt pour les problématiques d'expérience utilisateur\n\nCe que nous vous offrons\n\n- Un accompagnement personnalisé avec un tuteur dédié\n- Une immersion complète dans un projet à fort impact\n- La possibilité de développer vos compétences sur des outils professionnels\n- Une expérience valorisante en alternance (durée minimale : 1 an)\n- Des objectifs adaptés à votre formation et aux exigences de votre école\n\nVous ne serez pas simplement un alternant : vous serez un membre à part entière de notre équipe, avec un projet concret dont les résultats seront directement exploités par l'entreprise. Vous contribuerez à améliorer un service stratégique tout en développant des compétences très recherchées sur le marché.",
-      "dateCreation": "2025-05-20T10:04:27.180Z",
-      "dateActualisation": "2025-06-23T09:15:42.763Z",
-      "lieuTravail": {
-        "libelle": "72 - LE MANS",
-        "latitude": 47.993378,
-        "longitude": 0.191169,
-        "codePostal": "72000",
-        "commune": "72181"
-      },
-      "romeCode": "G1211",
-      "romeLibelle": "Analyste de la performance sportive",
-      "appellationlibelle": "Data analyst de la performance",
-      "entreprise": {
-        "nom": "GIE SESAM VITALE",
-        "description": "Acteur majeur de la transformation numérique de notre système de santé, créateur de la carte Vitale, le GIE SESAM-Vitale facilite la vie des patients au quotidien et des professionnels de santé en déployant la carte Vitale et des services en ligne. Il travaille également au référencement des futurs services de Mon espace santé. Plus de 200 collaborateurs, 80 % d'ingénieurs et spécialistes qui oeuvrent au quotidien pour concevoir et développer un ensemble d'innovations et de services numériques.",
-        "entrepriseAdaptee": false
-      },
-      "typeContrat": "CDD",
-      "typeContratLibelle": "CDD - 12 Mois",
-      "natureContrat": "Contrat apprentissage",
-      "experienceExige": "D",
-      "experienceLibelle": "Débutant accepté",
-      "formations": [
-        {
-          "niveauLibelle": "Bac+3, Bac+4 ou équivalents",
-          "exigence": "S"
-        }
-      ],
-      "competences": [
-        {
-          "code": "405029",
-          "libelle": "Certificat de capacité analyste de la performance",
-          "exigence": "S"
-        },
-        {
-          "code": "123324",
-          "libelle": "Collecter des données statistiques",
-          "exigence": "S"
-        },
-        {
-          "code": "300408",
-          "libelle": "Rédiger un rapport, un compte rendu d'activité",
-          "exigence": "S"
-        },
-        {
-          "code": "300426",
-          "libelle": "Utiliser les outils numériques",
-          "exigence": "S"
-        }
-      ],
-      "salaire": {
-        "commentaire": "Selon convention branche",
-        "complement1": "Autre"
-      },
-      "dureeTravailLibelle": "35H/semaine\nTravail en journée",
-      "dureeTravailLibelleConverti": "Temps plein",
-      "alternance": true,
-      "contact": {
-        "nom": "GIE SESAM VITALE - Mme Caroline PROD'HOMME",
-        "coordonnees1": "https://www.sesam-vitale.fr/web/sesam-vitale/nous_rejoindre#offres",
-        "urlPostulation": "https://www.sesam-vitale.fr/web/sesam-vitale/nous_rejoindre#offres"
-      },
-      "agence": {},
-      "nombrePostes": 1,
-      "accessibleTH": false,
-      "deplacementCode": "1",
-      "deplacementLibelle": "Jamais",
-      "qualificationCode": "7",
-      "qualificationLibelle": "Technicien",
-      "codeNAF": "63.11Z",
-      "secteurActivite": "63",
-      "secteurActiviteLibelle": "Traitement de données, hébergement et activités connexes",
-      "origineOffre": {
-        "origine": "1",
-        "urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/192RMKZ"
-      },
-      "offresManqueCandidats": true,
-      "contexteTravail": {
-        "horaires": [
-          "35H/semaine\nTravail en journée"
-        ]
-      }
     }
   ],
   "filtresPossibles": [
@@ -13088,11 +13076,11 @@
       "agregation": [
         {
           "valeurPossible": "CDD",
-          "nbResultats": 174
+          "nbResultats": 175
         },
         {
           "valeurPossible": "CDI",
-          "nbResultats": 1100
+          "nbResultats": 1102
         },
         {
           "valeurPossible": "FRA",
@@ -13117,7 +13105,7 @@
         },
         {
           "valeurPossible": "4",
-          "nbResultats": 601
+          "nbResultats": 604
         },
         {
           "valeurPossible": "1",
@@ -13138,7 +13126,7 @@
       "agregation": [
         {
           "valeurPossible": "0",
-          "nbResultats": 117
+          "nbResultats": 118
         },
         {
           "valeurPossible": "9",
@@ -13146,7 +13134,7 @@
         },
         {
           "valeurPossible": "X",
-          "nbResultats": 1146
+          "nbResultats": 1148
         }
       ]
     },
@@ -13155,11 +13143,11 @@
       "agregation": [
         {
           "valeurPossible": "E1",
-          "nbResultats": 1195
+          "nbResultats": 1197
         },
         {
           "valeurPossible": "E2",
-          "nbResultats": 111
+          "nbResultats": 112
         },
         {
           "valeurPossible": "FS",

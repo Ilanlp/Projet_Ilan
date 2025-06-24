@@ -1,6 +1,8 @@
 import pandas as pd
 import json
 from datetime import datetime
+from France_Travail.extract import extract as extract_france_travail
+from Adzuna.extract import extract as extract_adzuna
 
 def normalize_job_offers(source_name: str, data: list) -> pd.DataFrame:
     """Normalise les offres d'emploi issues d'Adzuna ou France Travail."""
@@ -50,6 +52,9 @@ def normalize_job_offers(source_name: str, data: list) -> pd.DataFrame:
 # ================================
 if __name__ == "__main__":
     today = datetime.today().strftime("%Y-%m-%d")
+
+    extract_france_travail()
+    extract_adzuna()
 
     # Chemins vers les fichiers source
     ft_path = f"data/data_raw/france_travail_results_{today}.json"

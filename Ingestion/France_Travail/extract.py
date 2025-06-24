@@ -46,14 +46,17 @@ class FranceTravailClient:
         return response.json()
 
     def save_to_file(self, data):
-        Path("../data/data_raw").mkdir(exist_ok=True)
+        base_dir = Path(__file__).resolve().parent.parent / "data" / "data_raw"
+        base_dir.mkdir(parents=True, exist_ok=True)
         today = datetime.today().strftime("%Y-%m-%d")
-        with open(f"../data/data_raw/france_travail_results_{today}.json", "w", encoding="utf-8") as f:
+        file_path = base_dir / f"france_travail_results_{today}.json"
+        with open(file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
-        print(f"✅ Données sauvegardées dans ../data/data_raw/france_travail_results_{today}.json")
+        print(f"✅ Données sauvegardées dans {file_path}")
 
 
-if __name__ == "__main__":
+
+def extract():
     client = FranceTravailClient()
     results = client.search_offres()
     client.save_to_file(results)

@@ -1,0 +1,4 @@
+USE DATABASE JOB_MARKET;
+USE SCHEMA PUBLIC;
+
+CREATE OR REPLACE FILE FORMAT classic_csv type='csv' field_delimiter=',' skip_header=1 ENCODING = 'UTF8', FIELD_OPTIONALLY_ENCLOSED_BY = '"'

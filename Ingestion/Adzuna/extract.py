@@ -60,7 +60,7 @@ class AdzunaClient:
             time.sleep(0.5)
 
         # Créer dossier ./data si besoin
-        data_dir = Path("../data/data_raw")
+        data_dir = Path(__file__).resolve().parent.parent / "data" / "data_raw"
         data_dir.mkdir(parents=True, exist_ok=True)
 
         # Créer un nom de fichier avec la date du jour
@@ -73,7 +73,7 @@ class AdzunaClient:
         print(f"✅ {len(all_results)} offres sauvegardées dans '{output_file}'")
 
 
-if __name__ == "__main__":
+def extract():
     client = AdzunaClient()
     if client.test_credentials():
         client.fetch_job_data()
