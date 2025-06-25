@@ -1,0 +1,18 @@
+
+version: 2
+
+sources:
+  - name: RAW
+    schema: RAW
+    tables:
+      - name: RAW_OFFRE
+      - name: RAW_OFFRE_CLEAN
+  - name : SILVER
+    schema: SILVER
+    tables:
+      - name: DIM_DATE
+      - name: DIM_CONTRAT
+      - name: DIM_ENTREPRISE
+      - name: DIM_SENIORITE
+      - name: DIM_COMPETENCE
+      - name: DIM_LIEU
