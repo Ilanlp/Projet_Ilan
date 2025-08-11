@@ -1,0 +1,463 @@
+[2025-06-30T21:04:48.271+0000] {processor.py:161} INFO - Started process (PID=719) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:04:48.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:04:48.275+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:04:48.274+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:04:48.294+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:04:48.452+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:04:48.451+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:jobmarket_etl_daily
+[2025-06-30T21:04:48.467+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:04:48.467+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:jobmarket_etl_daily
+[2025-06-30T21:04:48.480+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:04:48.480+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:jobmarket_etl_daily
+[2025-06-30T21:04:48.481+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:04:48.481+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:04:48.504+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:04:48.504+0000] {dag.py:3058} INFO - Creating ORM DAG for jobmarket_etl_daily
+[2025-06-30T21:04:48.542+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:04:48.542+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-29 06:00:00+00:00, run_after=2025-06-30 06:00:00+00:00
+[2025-06-30T21:04:48.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.315 seconds
+[2025-06-30T21:05:19.152+0000] {processor.py:161} INFO - Started process (PID=785) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:05:19.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:05:19.160+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:05:19.159+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:05:19.172+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:05:19.202+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:05:19.201+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:05:19.237+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:05:19.237+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-29 06:00:00+00:00, run_after=2025-06-30 06:00:00+00:00
+[2025-06-30T21:05:19.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.118 seconds
+[2025-06-30T21:05:50.038+0000] {processor.py:161} INFO - Started process (PID=859) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:05:50.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:05:50.049+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:05:50.049+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:05:50.064+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:05:50.111+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:05:50.111+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:05:50.164+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:05:50.164+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-29 06:00:00+00:00, run_after=2025-06-30 06:00:00+00:00
+[2025-06-30T21:05:50.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.172 seconds
+[2025-06-30T21:06:21.121+0000] {processor.py:161} INFO - Started process (PID=925) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:06:21.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:06:21.134+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:06:21.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:06:21.152+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:06:21.193+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:06:21.193+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:06:21.245+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:06:21.244+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-29 06:00:00+00:00, run_after=2025-06-30 06:00:00+00:00
+[2025-06-30T21:06:21.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.173 seconds
+[2025-06-30T21:06:51.352+0000] {processor.py:161} INFO - Started process (PID=991) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:06:51.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:06:51.359+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:06:51.358+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:06:51.376+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:06:51.435+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:06:51.435+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:06:51.480+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:06:51.480+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-29 06:00:00+00:00, run_after=2025-06-30 06:00:00+00:00
+[2025-06-30T21:06:51.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.178 seconds
+[2025-06-30T21:07:21.801+0000] {processor.py:161} INFO - Started process (PID=1055) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:07:21.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:07:21.806+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:07:21.806+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:07:21.820+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:07:21.861+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:07:21.861+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:07:21.913+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:07:21.913+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:07:21.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.175 seconds
+[2025-06-30T21:07:52.091+0000] {processor.py:161} INFO - Started process (PID=1118) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:07:52.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:07:52.113+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:07:52.112+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:07:52.147+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:07:52.216+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:07:52.216+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:07:52.297+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:07:52.296+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:07:52.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.302 seconds
+[2025-06-30T21:08:22.492+0000] {processor.py:161} INFO - Started process (PID=1185) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:08:22.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:08:22.498+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:08:22.497+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:08:22.512+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:08:22.546+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:08:22.546+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:08:22.592+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:08:22.592+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:08:22.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.143 seconds
+[2025-06-30T21:08:46.937+0000] {processor.py:161} INFO - Started process (PID=1235) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:08:46.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:08:46.945+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:08:46.944+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:08:46.957+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:08:47.252+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:08:47.252+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:08:47.311+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:08:47.311+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:08:47.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.427 seconds
+[2025-06-30T21:09:17.844+0000] {processor.py:161} INFO - Started process (PID=1302) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:09:17.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:09:17.854+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:09:17.853+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:09:17.870+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:09:17.915+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:09:17.914+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:09:17.964+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:09:17.964+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:09:17.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.157 seconds
+[2025-06-30T21:09:48.172+0000] {processor.py:161} INFO - Started process (PID=1368) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:09:48.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:09:48.198+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:09:48.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:09:48.237+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:09:48.354+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:09:48.354+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:09:48.453+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:09:48.452+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:09:48.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.354 seconds
+[2025-06-30T21:10:18.838+0000] {processor.py:161} INFO - Started process (PID=1434) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:10:18.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:10:18.844+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:10:18.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:10:18.865+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:10:18.901+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:10:18.900+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:10:18.939+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:10:18.939+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:10:18.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.133 seconds
+[2025-06-30T21:10:49.249+0000] {processor.py:161} INFO - Started process (PID=1500) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:10:49.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:10:49.272+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:10:49.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:10:49.300+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:10:49.343+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:10:49.342+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:10:49.400+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:10:49.399+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:10:49.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.242 seconds
+[2025-06-30T21:11:19.568+0000] {processor.py:161} INFO - Started process (PID=1566) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:11:19.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:11:19.577+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:11:19.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:11:19.593+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:11:19.629+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:11:19.629+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:11:19.669+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:11:19.669+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:11:19.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.137 seconds
+[2025-06-30T21:11:50.489+0000] {processor.py:161} INFO - Started process (PID=1639) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:11:50.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:11:50.498+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:11:50.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:11:50.513+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:11:50.559+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:11:50.558+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:11:50.597+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:11:50.596+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:11:50.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.147 seconds
+[2025-06-30T21:12:05.235+0000] {processor.py:161} INFO - Started process (PID=1678) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:12:05.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:12:05.248+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:05.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:12:05.277+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:12:05.514+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:05.513+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:12:05.575+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:05.574+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:12:06.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 1.089 seconds
+[2025-06-30T21:12:08.411+0000] {processor.py:161} INFO - Started process (PID=1679) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:12:08.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:12:08.418+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:08.418+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:12:08.444+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:12:08.462+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:08.462+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:12:08.503+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:08.503+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:12:08.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.130 seconds
+[2025-06-30T21:12:14.815+0000] {processor.py:161} INFO - Started process (PID=1697) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:12:14.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:12:14.820+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:14.819+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:12:14.835+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:12:14.858+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:14.858+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:12:14.902+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:14.902+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:12:14.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.133 seconds
+[2025-06-30T21:12:45.020+0000] {processor.py:161} INFO - Started process (PID=1761) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:12:45.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:12:45.026+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:45.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:12:45.039+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:12:45.069+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:45.068+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:12:45.107+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:45.107+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:12:45.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.123 seconds
+[2025-06-30T21:13:15.294+0000] {processor.py:161} INFO - Started process (PID=1831) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:13:15.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:13:15.298+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:13:15.298+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:13:15.314+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:13:15.343+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:13:15.343+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:13:15.377+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:13:15.377+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:13:15.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.116 seconds
+[2025-06-30T21:13:45.632+0000] {processor.py:161} INFO - Started process (PID=1896) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:13:45.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:13:45.639+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:13:45.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:13:45.669+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:13:45.736+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:13:45.736+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:13:45.798+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:13:45.798+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:13:45.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.255 seconds
+[2025-06-30T21:14:16.131+0000] {processor.py:161} INFO - Started process (PID=1961) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:14:16.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:14:16.140+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:16.139+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:14:16.171+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:14:16.207+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:16.206+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:14:16.279+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:16.278+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:14:16.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.266 seconds
+[2025-06-30T21:14:41.517+0000] {processor.py:161} INFO - Started process (PID=2018) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:14:41.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:14:41.530+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:41.530+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:14:41.541+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:14:41.673+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:41.673+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:14:41.878+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:41.878+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:14:41.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.399 seconds
+[2025-06-30T21:14:58.269+0000] {processor.py:161} INFO - Started process (PID=2065) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:14:58.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:14:58.277+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:58.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:14:58.293+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:14:58.315+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:58.315+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:14:58.366+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:58.366+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:14:58.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.146 seconds
+[2025-06-30T21:15:28.855+0000] {processor.py:161} INFO - Started process (PID=2131) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:15:28.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:15:28.863+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:15:28.862+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:15:28.873+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:15:28.900+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:15:28.900+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:15:28.929+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:15:28.929+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:15:28.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.107 seconds
+[2025-06-30T21:15:58.998+0000] {processor.py:161} INFO - Started process (PID=2197) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:15:59.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:15:59.005+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:15:59.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:15:59.021+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:15:59.049+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:15:59.049+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:15:59.247+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:15:59.246+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:15:59.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.286 seconds
+[2025-06-30T21:16:02.352+0000] {processor.py:161} INFO - Started process (PID=2200) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:16:02.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:16:02.360+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:16:02.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:16:02.373+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:16:02.401+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:16:02.400+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:16:02.433+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:16:02.433+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:16:02.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.123 seconds
+[2025-06-30T21:16:27.372+0000] {processor.py:161} INFO - Started process (PID=2252) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:16:27.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:16:27.382+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:16:27.381+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:16:27.393+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:16:27.426+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:16:27.425+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:16:27.462+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:16:27.461+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:16:27.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.355 seconds
+[2025-06-30T21:16:58.065+0000] {processor.py:161} INFO - Started process (PID=2318) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:16:58.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:16:58.074+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:16:58.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:16:58.106+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:16:58.178+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:16:58.177+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:16:58.257+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:16:58.257+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:16:58.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.494 seconds
+[2025-06-30T21:17:02.715+0000] {processor.py:161} INFO - Started process (PID=2332) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:17:02.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:17:02.725+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:17:02.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:17:02.757+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:17:02.819+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:17:02.819+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:17:03.375+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:17:03.375+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:17:03.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.763 seconds
+[2025-06-30T21:17:35.612+0000] {processor.py:161} INFO - Started process (PID=2398) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:17:35.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:17:35.627+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:17:35.626+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:17:35.668+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:17:35.716+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:17:35.716+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:17:36.004+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:17:36.003+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:17:36.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.435 seconds
+[2025-06-30T21:18:06.927+0000] {processor.py:161} INFO - Started process (PID=2463) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:18:06.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:18:06.934+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:18:06.933+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:18:06.954+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:18:07.051+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:18:07.051+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:18:07.128+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:18:07.127+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:18:07.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.542 seconds
+[2025-06-30T21:18:37.587+0000] {processor.py:161} INFO - Started process (PID=2530) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:18:37.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:18:37.591+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:18:37.591+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:18:37.603+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:18:37.635+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:18:37.635+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:18:37.665+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:18:37.665+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:18:37.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.109 seconds
+[2025-06-30T21:19:08.026+0000] {processor.py:161} INFO - Started process (PID=2600) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:19:08.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:19:08.033+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:19:08.032+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:19:08.044+0000] {processor.py:840} INFO - DAG(s) 'jobmarket_etl_daily' retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:19:08.084+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:19:08.084+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:19:08.130+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:19:08.130+0000] {dag.py:3823} INFO - Setting next_dagrun for jobmarket_etl_daily to 2025-06-30 06:00:00+00:00, run_after=2025-07-01 06:00:00+00:00
+[2025-06-30T21:19:08.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.146 seconds
+[2025-06-30T21:19:33.469+0000] {processor.py:161} INFO - Started process (PID=2646) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:19:33.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:19:33.486+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:19:33.486+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:19:33.500+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:19:33.499+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job_market_daily.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job_market_daily.py", line 44
+    Mount(source="/home/ilanlp/Projet_Ilan/Extract/data", target:"/app/data", type="bind"),
+                                                                ^
+SyntaxError: invalid syntax
+[2025-06-30T21:19:33.501+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:19:33.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.101 seconds
+[2025-06-30T21:20:03.933+0000] {processor.py:161} INFO - Started process (PID=2712) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:20:03.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:20:03.940+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:20:03.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:20:03.947+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:20:03.945+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job_market_daily.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job_market_daily.py", line 44
+    Mount(source="/home/ilanlp/Projet_Ilan/Extract/data", target:"/app/data", type="bind"),
+                                                                ^
+SyntaxError: invalid syntax
+[2025-06-30T21:20:03.948+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:20:03.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.067 seconds
+[2025-06-30T21:20:34.156+0000] {processor.py:161} INFO - Started process (PID=2785) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:20:34.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:20:34.160+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:20:34.159+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:20:34.163+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:20:34.162+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job_market_daily.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job_market_daily.py", line 44
+    Mount(source="/home/ilanlp/Projet_Ilan/Extract/data", target:"/app/data", type="bind"),
+                                                                ^
+SyntaxError: invalid syntax
+[2025-06-30T21:20:34.163+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:20:34.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.043 seconds
+[2025-06-30T21:21:04.855+0000] {processor.py:161} INFO - Started process (PID=2851) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:21:04.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:21:04.888+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:21:04.887+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:21:04.900+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:21:04.893+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job_market_daily.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job_market_daily.py", line 44
+    Mount(source="/home/ilanlp/Projet_Ilan/Extract/data", target:"/app/data", type="bind"),
+                                                                ^
+SyntaxError: invalid syntax
+[2025-06-30T21:21:04.901+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:21:04.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.128 seconds
+[2025-06-30T21:21:14.991+0000] {processor.py:161} INFO - Started process (PID=2878) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:21:14.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:21:14.994+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:21:14.994+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:21:14.998+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:21:14.997+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job_market_daily.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job_market_daily.py", line 44
+    Mount(source="/home/ilanlp/Projet_Ilan/Extract/data", target:"/app/data", type="bind"),
+                                                                ^
+SyntaxError: invalid syntax
+[2025-06-30T21:21:14.998+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:21:15.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.043 seconds
+[2025-06-30T21:21:39.794+0000] {processor.py:161} INFO - Started process (PID=2925) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:21:39.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:21:39.798+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:21:39.797+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:21:39.803+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:21:39.801+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job_market_daily.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job_market_daily.py", line 44
+    Mount(source="/home/ilanlp/Projet_Ilan/Extract/data", target:"/app/data", type="bind"),
+                                                                ^
+SyntaxError: invalid syntax
+[2025-06-30T21:21:39.804+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:21:39.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.051 seconds
+[2025-06-30T21:22:07.688+0000] {processor.py:161} INFO - Started process (PID=2985) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:22:07.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:22:07.697+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:22:07.697+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:22:07.705+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:22:07.703+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job_market_daily.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job_market_daily.py", line 44
+    Mount(source="/home/ilanlp/Projet_Ilan/Extract/data", target:"/app/data", type="bind"),
+                                                                ^
+SyntaxError: invalid syntax
+[2025-06-30T21:22:07.707+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:22:07.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.086 seconds
+[2025-06-30T21:22:38.232+0000] {processor.py:161} INFO - Started process (PID=3049) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:22:38.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:22:38.243+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:22:38.242+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:22:38.246+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:22:38.245+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job_market_daily.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job_market_daily.py", line 44
+    Mount(source="/home/ilanlp/Projet_Ilan/Extract/data", target:"/app/data", type="bind"),
+                                                                ^
+SyntaxError: invalid syntax
+[2025-06-30T21:22:38.246+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:22:38.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.049 seconds
+[2025-06-30T21:23:08.697+0000] {processor.py:161} INFO - Started process (PID=3114) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:23:08.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:23:08.704+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:23:08.703+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:23:08.708+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:23:08.707+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job_market_daily.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job_market_daily.py", line 44
+    Mount(source="/home/ilanlp/Projet_Ilan/Extract/data", target:"/app/data", type="bind"),
+                                                                ^
+SyntaxError: invalid syntax
+[2025-06-30T21:23:08.709+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:23:08.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.048 seconds
+[2025-06-30T21:23:39.211+0000] {processor.py:161} INFO - Started process (PID=3180) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:23:39.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:23:39.219+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:23:39.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:23:39.227+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:23:39.225+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job_market_daily.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job_market_daily.py", line 44
+    Mount(source="/home/ilanlp/Projet_Ilan/Extract/data", target:"/app/data", type="bind"),
+                                                                ^
+SyntaxError: invalid syntax
+[2025-06-30T21:23:39.228+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:23:39.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.071 seconds
+[2025-06-30T21:24:09.490+0000] {processor.py:161} INFO - Started process (PID=3245) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:24:09.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:24:09.493+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:24:09.492+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:24:09.496+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:24:09.495+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job_market_daily.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job_market_daily.py", line 44
+    Mount(source="/home/ilanlp/Projet_Ilan/Extract/data", target:"/app/data", type="bind"),
+                                                                ^
+SyntaxError: invalid syntax
+[2025-06-30T21:24:09.497+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:24:09.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.037 seconds
+[2025-06-30T21:24:39.769+0000] {processor.py:161} INFO - Started process (PID=3319) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:24:39.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:24:39.775+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:24:39.774+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:24:39.779+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:24:39.778+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job_market_daily.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job_market_daily.py", line 44
+    Mount(source="/home/ilanlp/Projet_Ilan/Extract/data", target:"/app/data", type="bind"),
+                                                                ^
+SyntaxError: invalid syntax
+[2025-06-30T21:24:39.779+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:24:39.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.062 seconds
+[2025-06-30T21:25:10.602+0000] {processor.py:161} INFO - Started process (PID=3385) to work on /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:25:10.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/job_market_daily.py for tasks to queue
+[2025-06-30T21:25:10.610+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:25:10.609+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:25:10.616+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:25:10.614+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/job_market_daily.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/job_market_daily.py", line 44
+    Mount(source="/home/ilanlp/Projet_Ilan/Extract/data", target:"/app/data", type="bind"),
+                                                                ^
+SyntaxError: invalid syntax
+[2025-06-30T21:25:10.616+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/job_market_daily.py
+[2025-06-30T21:25:10.710+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/job_market_daily.py took 0.121 seconds

@@ -1,0 +1,55 @@
+USE DATABASE JOB_MARKET;
+USE SCHEMA SILVER;
+
+
+CREATE TABLE IF NOT EXISTS DIM_DATE (
+  id_date VARCHAR(10) PRIMARY KEY,
+  semestre NUMBER(1,0),
+  mois NUMBER(2,0),
+  jour NUMBER(2,0),
+  mois_nom VARCHAR(10),
+  jour_semaine VARCHAR(10),
+  week_end BOOLEAN
+);
+
+
+CREATE TABLE IF NOT EXISTS DIM_COMPETENCE (
+  id_competence INT IDENTITY(1,1) PRIMARY KEY,
+  skill VARCHAR(100),
+  type VARCHAR(100)
+);
+
+
+CREATE TABLE IF NOT EXISTS DIM_CONTRAT (
+  id_contrat INT IDENTITY(1,1) PRIMARY KEY,
+  type_contrat VARCHAR(20)
+);
+
+
+CREATE TABLE IF NOT EXISTS DIM_LIEU (
+  id_lieu INT IDENTITY(1,1) PRIMARY KEY,
+  code_postal NUMBER(5,0),
+  ville VARCHAR(100),
+  departement VARCHAR(100),
+  region VARCHAR(50),
+  pays VARCHAR(50),
+  latitude NUMBER(9,6),
+  longitude NUMBER(9,6),
+  -- coord GEOGRAPHY
+  population NUMBER(12,0)
+);
+
+CREATE TABLE IF NOT EXISTS DIM_SENIORITE (
+  id_seniorite INT IDENTITY(1,1) PRIMARY KEY,
+  type_seniorite VARCHAR(8)
+);
+
+CREATE TABLE IF NOT EXISTS DIM_ENTREPRISE (
+  id_entreprise INT IDENTITY(1,1) PRIMARY KEY,
+  nom VARCHAR(100),
+  type_entreprise VARCHAR(100)
+);
+
+
+
+

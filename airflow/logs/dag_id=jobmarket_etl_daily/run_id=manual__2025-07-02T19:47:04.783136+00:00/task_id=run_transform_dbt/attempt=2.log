@@ -1,0 +1,44 @@
+[2025-07-02T19:52:20.864+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jobmarket_etl_daily.run_transform_dbt manual__2025-07-02T19:47:04.783136+00:00 [queued]>
+[2025-07-02T19:52:20.876+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jobmarket_etl_daily.run_transform_dbt manual__2025-07-02T19:47:04.783136+00:00 [queued]>
+[2025-07-02T19:52:20.876+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2025-07-02T19:52:20.891+0000] {taskinstance.py:2191} INFO - Executing <Task(DockerOperator): run_transform_dbt> on 2025-07-02 19:47:04.783136+00:00
+[2025-07-02T19:52:20.903+0000] {standard_task_runner.py:60} INFO - Started process 1547 to run task
+[2025-07-02T19:52:20.908+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jobmarket_etl_daily', 'run_transform_dbt', 'manual__2025-07-02T19:47:04.783136+00:00', '--job-id', '70', '--raw', '--subdir', 'DAGS_FOLDER/job_market_daily.py', '--cfg-path', '/tmp/tmplh214r1x']
+[2025-07-02T19:52:20.913+0000] {standard_task_runner.py:88} INFO - Job 70: Subtask run_transform_dbt
+[2025-07-02T19:52:20.937+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2025-07-02T19:52:21.006+0000] {task_command.py:423} INFO - Running <TaskInstance: jobmarket_etl_daily.run_transform_dbt manual__2025-07-02T19:47:04.783136+00:00 [running]> on host ffd29e670e5f
+[2025-07-02T19:52:21.173+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ilan' AIRFLOW_CTX_DAG_ID='jobmarket_etl_daily' AIRFLOW_CTX_TASK_ID='run_transform_dbt' AIRFLOW_CTX_EXECUTION_DATE='2025-07-02T19:47:04.783136+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-02T19:47:04.783136+00:00'
+[2025-07-02T19:52:21.284+0000] {docker.py:359} INFO - Starting docker container from image jobmarket-dbt
+[2025-07-02T19:52:26.947+0000] {docker.py:429} INFO - [0m19:52:26  Running with dbt=1.10.2
+[2025-07-02T19:52:27.682+0000] {docker.py:429} INFO - [0m19:52:27  Registered adapter: snowflake=1.9.4
+[2025-07-02T19:52:28.819+0000] {docker.py:429} INFO - [0m19:52:28  Found 9 models, 8 sources, 477 macros
+[2025-07-02T19:52:29.574+0000] {docker.py:429} INFO - [0m19:52:28
+[2025-07-02T19:52:29.578+0000] {docker.py:429} INFO - [0m19:52:29  Concurrency: 4 threads (target='dev')
+[0m19:52:29
+[2025-07-02T19:52:39.487+0000] {docker.py:429} INFO - [0m19:52:39  1 of 8 START sql table model RAW.raw_offre_clean ............................... [RUN]
+[2025-07-02T19:52:41.604+0000] {docker.py:429} INFO - [0m19:52:41  1 of 8 OK created sql table model RAW.raw_offre_clean .......................... [[32mSUCCESS 1[0m in 2.11s]
+[2025-07-02T19:52:41.614+0000] {docker.py:429} INFO - [0m19:52:41  2 of 8 START sql view model SILVER.match_contrat ............................... [RUN]
+[2025-07-02T19:52:41.626+0000] {docker.py:429} INFO - [0m19:52:41  3 of 8 START sql view model SILVER.match_date .................................. [RUN]
+[2025-07-02T19:52:41.642+0000] {docker.py:429} INFO - [0m19:52:41  4 of 8 START sql view model SILVER.match_entreprise ............................ [RUN]
+[2025-07-02T19:52:41.753+0000] {docker.py:429} INFO - [0m19:52:41  5 of 8 START sql view model SILVER.match_lieu .................................. [RUN]
+[2025-07-02T19:52:42.705+0000] {docker.py:429} INFO - [0m19:52:42  5 of 8 OK created sql view model SILVER.match_lieu ............................. [[32mSUCCESS 1[0m in 0.93s]
+[2025-07-02T19:52:42.710+0000] {docker.py:429} INFO - [0m19:52:42  6 of 8 START sql view model SILVER.match_skills ................................ [RUN]
+[2025-07-02T19:52:42.737+0000] {docker.py:429} INFO - [0m19:52:42  2 of 8 OK created sql view model SILVER.match_contrat .......................... [[32mSUCCESS 1[0m in 1.11s]
+[2025-07-02T19:52:42.769+0000] {docker.py:429} INFO - [0m19:52:42  4 of 8 OK created sql view model SILVER.match_entreprise ....................... [[32mSUCCESS 1[0m in 1.02s]
+[2025-07-02T19:52:43.264+0000] {docker.py:429} INFO - [0m19:52:43  6 of 8 OK created sql view model SILVER.match_skills ........................... [[32mSUCCESS 1[0m in 0.54s]
+[2025-07-02T19:52:43.473+0000] {docker.py:429} INFO - [0m19:52:43  3 of 8 OK created sql view model SILVER.match_date ............................. [[32mSUCCESS 1[0m in 1.84s]
+[2025-07-02T19:52:43.476+0000] {docker.py:429} INFO - [0m19:52:43  7 of 8 START sql incremental model GOLD.fait_offre ............................. [RUN]
+[2025-07-02T19:54:59.000+0000] {docker.py:429} INFO - [0m19:54:58  7 of 8 OK created sql incremental model GOLD.fait_offre ........................ [[32mSUCCESS 1274[0m in 135.52s]
+[2025-07-02T19:54:59.003+0000] {docker.py:429} INFO - [0m19:54:59  8 of 8 START sql incremental model GOLD.liaison_offre_competence ............... [RUN]
+[2025-07-02T19:55:03.722+0000] {docker.py:429} INFO - [0m19:55:03  8 of 8 OK created sql incremental model GOLD.liaison_offre_competence .......... [[32mSUCCESS 225[0m in 4.71s]
+[2025-07-02T19:55:07.598+0000] {docker.py:429} INFO - [0m19:55:07  
+[0m19:55:07  Finished running 2 incremental models, 1 table model, 5 view models in 0 hours 2 minutes and 38.02 seconds (158.02s).
+[2025-07-02T19:55:07.694+0000] {docker.py:429} INFO - [0m19:55:07
+[2025-07-02T19:55:07.695+0000] {docker.py:429} INFO - [0m19:55:07  [32mCompleted successfully[0m
+[0m19:55:07
+[2025-07-02T19:55:07.696+0000] {docker.py:429} INFO - [0m19:55:07  Done. PASS=8 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=8
+[2025-07-02T19:55:09.114+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jobmarket_etl_daily, task_id=run_transform_dbt, execution_date=20250702T194704, start_date=20250702T195220, end_date=20250702T195509
+[2025-07-02T19:55:09.182+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-02T19:55:09.210+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
