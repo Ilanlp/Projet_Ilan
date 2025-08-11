@@ -1,0 +1,350 @@
+[2025-06-30T21:00:06.020+0000] {processor.py:161} INFO - Started process (PID=121) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:00:06.022+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:00:06.034+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:00:06.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:00:06.057+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:00:06.442+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:00:06.441+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:00:06.515+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:00:06.514+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 20:58:00+00:00, run_after=2025-06-30 21:00:00+00:00
+[2025-06-30T21:00:06.564+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.562 seconds
+[2025-06-30T21:00:37.013+0000] {processor.py:161} INFO - Started process (PID=186) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:00:37.017+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:00:37.021+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:00:37.021+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:00:37.041+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:00:37.079+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:00:37.079+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:00:37.122+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:00:37.122+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 20:58:00+00:00, run_after=2025-06-30 21:00:00+00:00
+[2025-06-30T21:00:37.147+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.141 seconds
+[2025-06-30T21:01:08.025+0000] {processor.py:161} INFO - Started process (PID=251) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:01:08.037+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:01:08.040+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:01:08.040+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:01:08.059+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:01:08.112+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:01:08.112+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:01:08.159+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:01:08.159+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 20:58:00+00:00, run_after=2025-06-30 21:00:00+00:00
+[2025-06-30T21:01:08.197+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.178 seconds
+[2025-06-30T21:01:38.247+0000] {processor.py:161} INFO - Started process (PID=314) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:01:38.249+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:01:38.252+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:01:38.251+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:01:38.263+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:01:38.288+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:01:38.287+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:01:38.318+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:01:38.318+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 20:58:00+00:00, run_after=2025-06-30 21:00:00+00:00
+[2025-06-30T21:01:38.346+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.105 seconds
+[2025-06-30T21:02:08.902+0000] {processor.py:161} INFO - Started process (PID=378) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:02:08.906+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:02:08.913+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:02:08.912+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:02:08.937+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:02:09.003+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:02:09.003+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:02:09.088+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:02:09.088+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:00:00+00:00, run_after=2025-06-30 21:02:00+00:00
+[2025-06-30T21:02:09.154+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.268 seconds
+[2025-06-30T21:02:39.532+0000] {processor.py:161} INFO - Started process (PID=442) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:02:39.535+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:02:39.539+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:02:39.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:02:39.553+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:02:39.585+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:02:39.585+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:02:39.622+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:02:39.622+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:00:00+00:00, run_after=2025-06-30 21:02:00+00:00
+[2025-06-30T21:02:39.653+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.130 seconds
+[2025-06-30T21:03:09.771+0000] {processor.py:161} INFO - Started process (PID=507) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:03:09.773+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:03:09.778+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:03:09.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:03:09.796+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:03:09.837+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:03:09.837+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:03:09.929+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:03:09.928+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:00:00+00:00, run_after=2025-06-30 21:02:00+00:00
+[2025-06-30T21:03:09.980+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.235 seconds
+[2025-06-30T21:03:40.897+0000] {processor.py:161} INFO - Started process (PID=571) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:03:40.903+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:03:40.908+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:03:40.906+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:03:40.931+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:03:40.961+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:03:40.961+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:03:41.003+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:03:41.003+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:00:00+00:00, run_after=2025-06-30 21:02:00+00:00
+[2025-06-30T21:03:41.034+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.144 seconds
+[2025-06-30T21:04:11.959+0000] {processor.py:161} INFO - Started process (PID=644) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:04:11.961+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:04:11.964+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:04:11.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:04:11.977+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:04:12.006+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:04:12.006+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:04:12.051+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:04:12.051+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:02:00+00:00, run_after=2025-06-30 21:04:00+00:00
+[2025-06-30T21:04:12.077+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.124 seconds
+[2025-06-30T21:04:42.190+0000] {processor.py:161} INFO - Started process (PID=709) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:04:42.203+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:04:42.207+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:04:42.206+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:04:42.227+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:04:42.275+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:04:42.275+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:04:42.347+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:04:42.347+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:02:00+00:00, run_after=2025-06-30 21:04:00+00:00
+[2025-06-30T21:04:42.381+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.198 seconds
+[2025-06-30T21:05:12.907+0000] {processor.py:161} INFO - Started process (PID=775) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:05:12.916+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:05:12.920+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:05:12.920+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:05:12.941+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:05:12.994+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:05:12.994+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:05:13.072+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:05:13.071+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:02:00+00:00, run_after=2025-06-30 21:04:00+00:00
+[2025-06-30T21:05:13.138+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.245 seconds
+[2025-06-30T21:05:43.520+0000] {processor.py:161} INFO - Started process (PID=841) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:05:43.525+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:05:43.531+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:05:43.529+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:05:43.563+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:05:43.611+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:05:43.611+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:05:43.895+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:05:43.895+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:02:00+00:00, run_after=2025-06-30 21:04:00+00:00
+[2025-06-30T21:05:44.052+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.544 seconds
+[2025-06-30T21:06:14.244+0000] {processor.py:161} INFO - Started process (PID=907) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:06:14.247+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:06:14.250+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:06:14.250+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:06:14.264+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:06:14.300+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:06:14.299+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:06:14.343+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:06:14.342+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:04:00+00:00, run_after=2025-06-30 21:06:00+00:00
+[2025-06-30T21:06:14.372+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.133 seconds
+[2025-06-30T21:06:45.725+0000] {processor.py:161} INFO - Started process (PID=973) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:06:45.728+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:06:45.734+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:06:45.733+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:06:45.756+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:06:45.839+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:06:45.835+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:06:45.961+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:06:45.960+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:04:00+00:00, run_after=2025-06-30 21:06:00+00:00
+[2025-06-30T21:06:46.011+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.302 seconds
+[2025-06-30T21:07:16.559+0000] {processor.py:161} INFO - Started process (PID=1039) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:07:16.560+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:07:16.563+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:07:16.563+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:07:16.579+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:07:16.611+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:07:16.610+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:07:16.655+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:07:16.655+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:04:00+00:00, run_after=2025-06-30 21:06:00+00:00
+[2025-06-30T21:07:16.705+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.153 seconds
+[2025-06-30T21:07:47.104+0000] {processor.py:161} INFO - Started process (PID=1104) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:07:47.106+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:07:47.110+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:07:47.109+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:07:47.127+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:07:47.189+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:07:47.189+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:07:47.245+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:07:47.244+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:04:00+00:00, run_after=2025-06-30 21:06:00+00:00
+[2025-06-30T21:07:47.331+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.233 seconds
+[2025-06-30T21:08:17.893+0000] {processor.py:161} INFO - Started process (PID=1172) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:08:17.903+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:08:17.908+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:08:17.907+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:08:17.926+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:08:17.963+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:08:17.962+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:08:18.038+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:08:18.038+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:06:00+00:00, run_after=2025-06-30 21:08:00+00:00
+[2025-06-30T21:08:18.074+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.195 seconds
+[2025-06-30T21:08:48.269+0000] {processor.py:161} INFO - Started process (PID=1247) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:08:48.271+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:08:48.275+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:08:48.274+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:08:48.292+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:08:48.342+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:08:48.341+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:08:48.426+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:08:48.426+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:06:00+00:00, run_after=2025-06-30 21:08:00+00:00
+[2025-06-30T21:08:48.472+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.210 seconds
+[2025-06-30T21:09:18.947+0000] {processor.py:161} INFO - Started process (PID=1313) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:09:18.949+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:09:18.951+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:09:18.951+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:09:18.964+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:09:18.993+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:09:18.993+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:09:19.025+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:09:19.025+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:06:00+00:00, run_after=2025-06-30 21:08:00+00:00
+[2025-06-30T21:09:19.048+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.106 seconds
+[2025-06-30T21:09:49.755+0000] {processor.py:161} INFO - Started process (PID=1379) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:09:49.758+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:09:49.765+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:09:49.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:09:49.797+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:09:49.875+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:09:49.873+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:09:49.963+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:09:49.962+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:06:00+00:00, run_after=2025-06-30 21:08:00+00:00
+[2025-06-30T21:09:50.006+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.263 seconds
+[2025-06-30T21:10:20.813+0000] {processor.py:161} INFO - Started process (PID=1445) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:10:20.815+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:10:20.818+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:10:20.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:10:20.834+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:10:20.879+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:10:20.879+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:10:20.932+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:10:20.932+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:08:00+00:00, run_after=2025-06-30 21:10:00+00:00
+[2025-06-30T21:10:20.970+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.164 seconds
+[2025-06-30T21:10:51.905+0000] {processor.py:161} INFO - Started process (PID=1511) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:10:51.906+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:10:51.910+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:10:51.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:10:51.926+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:10:51.964+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:10:51.964+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:10:52.009+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:10:52.008+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:08:00+00:00, run_after=2025-06-30 21:10:00+00:00
+[2025-06-30T21:10:52.093+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.194 seconds
+[2025-06-30T21:11:22.381+0000] {processor.py:161} INFO - Started process (PID=1584) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:11:22.385+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:11:22.390+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:11:22.388+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:11:22.408+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:11:22.455+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:11:22.455+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:11:22.536+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:11:22.536+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:08:00+00:00, run_after=2025-06-30 21:10:00+00:00
+[2025-06-30T21:11:22.603+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.231 seconds
+[2025-06-30T21:11:52.759+0000] {processor.py:161} INFO - Started process (PID=1651) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:11:52.761+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:11:52.765+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:11:52.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:11:52.782+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:11:52.817+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:11:52.817+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:11:52.856+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:11:52.856+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:08:00+00:00, run_after=2025-06-30 21:10:00+00:00
+[2025-06-30T21:11:52.890+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.137 seconds
+[2025-06-30T21:12:23.096+0000] {processor.py:161} INFO - Started process (PID=1723) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:12:23.099+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:12:23.102+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:23.101+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:12:23.120+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:12:23.155+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:23.155+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:12:23.217+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:23.217+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:10:00+00:00, run_after=2025-06-30 21:12:00+00:00
+[2025-06-30T21:12:23.253+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.163 seconds
+[2025-06-30T21:12:53.397+0000] {processor.py:161} INFO - Started process (PID=1789) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:12:53.399+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:12:53.402+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:53.401+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:12:53.416+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:12:53.449+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:53.449+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:12:53.488+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:12:53.487+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:10:00+00:00, run_after=2025-06-30 21:12:00+00:00
+[2025-06-30T21:12:53.534+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.143 seconds
+[2025-06-30T21:13:24.161+0000] {processor.py:161} INFO - Started process (PID=1856) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:13:24.166+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:13:24.174+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:13:24.172+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:13:24.196+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:13:24.287+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:13:24.287+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:13:24.350+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:13:24.350+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:10:00+00:00, run_after=2025-06-30 21:12:00+00:00
+[2025-06-30T21:13:24.378+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.227 seconds
+[2025-06-30T21:13:54.945+0000] {processor.py:161} INFO - Started process (PID=1921) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:13:54.948+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:13:54.953+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:13:54.951+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:13:54.973+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:13:55.025+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:13:55.024+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:13:55.076+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:13:55.074+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:10:00+00:00, run_after=2025-06-30 21:12:00+00:00
+[2025-06-30T21:13:55.117+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.181 seconds
+[2025-06-30T21:14:25.241+0000] {processor.py:161} INFO - Started process (PID=1995) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:14:25.252+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:14:25.255+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:25.255+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:14:25.279+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:14:25.319+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:25.318+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:14:25.361+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:25.361+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:12:00+00:00, run_after=2025-06-30 21:14:00+00:00
+[2025-06-30T21:14:25.387+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.155 seconds
+[2025-06-30T21:14:55.911+0000] {processor.py:161} INFO - Started process (PID=2061) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:14:55.916+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:14:55.919+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:55.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:14:55.931+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:14:55.969+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:55.969+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:14:56.013+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:14:56.013+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:12:00+00:00, run_after=2025-06-30 21:14:00+00:00
+[2025-06-30T21:14:56.041+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.137 seconds
+[2025-06-30T21:15:27.268+0000] {processor.py:161} INFO - Started process (PID=2127) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:15:27.270+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:15:27.273+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:15:27.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:15:27.286+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:15:27.316+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:15:27.315+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:15:27.354+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:15:27.353+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:12:00+00:00, run_after=2025-06-30 21:14:00+00:00
+[2025-06-30T21:15:27.601+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.341 seconds
+[2025-06-30T21:15:58.101+0000] {processor.py:161} INFO - Started process (PID=2193) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:15:58.102+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:15:58.105+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:15:58.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:15:58.116+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:15:58.145+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:15:58.145+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:15:58.184+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:15:58.183+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:12:00+00:00, run_after=2025-06-30 21:14:00+00:00
+[2025-06-30T21:15:58.414+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.318 seconds
+[2025-06-30T21:16:29.341+0000] {processor.py:161} INFO - Started process (PID=2261) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:16:29.345+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:16:29.349+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:16:29.348+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:16:29.361+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:16:29.389+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:16:29.389+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:16:29.429+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:16:29.428+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:14:00+00:00, run_after=2025-06-30 21:16:00+00:00
+[2025-06-30T21:16:29.633+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.297 seconds
+[2025-06-30T21:17:00.433+0000] {processor.py:161} INFO - Started process (PID=2327) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:17:00.435+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:17:00.438+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:17:00.438+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:17:00.455+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:17:00.484+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:17:00.484+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:17:00.524+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:17:00.523+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:14:00+00:00, run_after=2025-06-30 21:16:00+00:00
+[2025-06-30T21:17:00.806+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.378 seconds
+[2025-06-30T21:17:34.063+0000] {processor.py:161} INFO - Started process (PID=2393) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:17:34.069+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:17:34.073+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:17:34.073+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:17:34.107+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:17:34.208+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:17:34.200+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:17:34.452+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:17:34.451+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:14:00+00:00, run_after=2025-06-30 21:16:00+00:00
+[2025-06-30T21:17:35.011+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.961 seconds
+[2025-06-30T21:18:05.740+0000] {processor.py:161} INFO - Started process (PID=2459) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:18:05.742+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:18:05.744+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:18:05.744+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:18:05.761+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:18:05.796+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:18:05.796+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:18:05.841+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:18:05.840+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:16:00+00:00, run_after=2025-06-30 21:18:00+00:00
+[2025-06-30T21:18:06.346+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.612 seconds
+[2025-06-30T21:18:37.330+0000] {processor.py:161} INFO - Started process (PID=2527) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:18:37.332+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:18:37.335+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:18:37.334+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:18:37.349+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:18:37.382+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:18:37.382+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:18:37.415+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:18:37.415+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:16:00+00:00, run_after=2025-06-30 21:18:00+00:00
+[2025-06-30T21:18:37.445+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.120 seconds
+[2025-06-30T21:19:08.043+0000] {processor.py:161} INFO - Started process (PID=2601) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:19:08.045+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:19:08.048+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:19:08.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:19:08.064+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:19:08.099+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:19:08.099+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:19:08.143+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:19:08.143+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:16:00+00:00, run_after=2025-06-30 21:18:00+00:00
+[2025-06-30T21:19:08.174+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.138 seconds
+[2025-06-30T21:19:38.395+0000] {processor.py:161} INFO - Started process (PID=2665) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:19:38.402+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:19:38.409+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:19:38.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:19:38.428+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:19:38.785+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:19:38.785+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:19:38.838+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:19:38.837+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:16:00+00:00, run_after=2025-06-30 21:18:00+00:00
+[2025-06-30T21:19:38.870+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.483 seconds
+[2025-06-30T21:20:09.739+0000] {processor.py:161} INFO - Started process (PID=2730) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:20:09.744+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:20:09.752+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:20:09.751+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:20:09.767+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:20:09.797+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:20:09.797+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:20:09.870+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:20:09.870+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:18:00+00:00, run_after=2025-06-30 21:20:00+00:00
+[2025-06-30T21:20:09.901+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.159 seconds
+[2025-06-30T21:20:40.411+0000] {processor.py:161} INFO - Started process (PID=2796) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:20:40.412+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:20:40.416+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:20:40.415+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:20:40.430+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:20:40.472+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:20:40.472+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:20:40.509+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:20:40.509+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:18:00+00:00, run_after=2025-06-30 21:20:00+00:00
+[2025-06-30T21:20:40.534+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.132 seconds
+[2025-06-30T21:21:10.689+0000] {processor.py:161} INFO - Started process (PID=2862) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:21:10.690+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:21:10.691+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:21:10.691+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:21:10.702+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:21:10.734+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:21:10.733+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:21:10.774+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:21:10.773+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:18:00+00:00, run_after=2025-06-30 21:20:00+00:00
+[2025-06-30T21:21:10.808+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.125 seconds
+[2025-06-30T21:21:41.174+0000] {processor.py:161} INFO - Started process (PID=2929) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:21:41.181+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:21:41.183+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:21:41.182+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:21:41.208+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:21:41.246+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:21:41.245+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:21:41.314+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:21:41.313+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:18:00+00:00, run_after=2025-06-30 21:20:00+00:00
+[2025-06-30T21:21:41.369+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.204 seconds
+[2025-06-30T21:22:11.460+0000] {processor.py:161} INFO - Started process (PID=2994) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:22:11.464+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:22:11.466+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:22:11.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:22:11.516+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:22:11.569+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:22:11.569+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:22:11.653+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:22:11.651+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:20:00+00:00, run_after=2025-06-30 21:22:00+00:00
+[2025-06-30T21:22:11.698+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.252 seconds
+[2025-06-30T21:22:42.093+0000] {processor.py:161} INFO - Started process (PID=3060) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:22:42.096+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:22:42.097+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:22:42.096+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:22:42.108+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:22:42.136+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:22:42.136+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:22:42.168+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:22:42.168+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:20:00+00:00, run_after=2025-06-30 21:22:00+00:00
+[2025-06-30T21:22:42.196+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.108 seconds
+[2025-06-30T21:23:12.551+0000] {processor.py:161} INFO - Started process (PID=3125) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:23:12.553+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:23:12.555+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:23:12.554+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:23:12.568+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:23:12.600+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:23:12.599+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:23:12.636+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:23:12.636+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:20:00+00:00, run_after=2025-06-30 21:22:00+00:00
+[2025-06-30T21:23:12.661+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.116 seconds
+[2025-06-30T21:23:43.102+0000] {processor.py:161} INFO - Started process (PID=3198) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:23:43.107+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:23:43.108+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:23:43.108+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:23:43.126+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:23:43.165+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:23:43.164+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:23:43.217+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:23:43.217+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:20:00+00:00, run_after=2025-06-30 21:22:00+00:00
+[2025-06-30T21:23:43.265+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.170 seconds
+[2025-06-30T21:24:13.365+0000] {processor.py:161} INFO - Started process (PID=3264) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:24:13.368+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:24:13.369+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:24:13.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:24:13.387+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:24:13.426+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:24:13.425+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:24:13.481+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:24:13.481+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:22:00+00:00, run_after=2025-06-30 21:24:00+00:00
+[2025-06-30T21:24:13.523+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.164 seconds
+[2025-06-30T21:24:44.088+0000] {processor.py:161} INFO - Started process (PID=3330) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:24:44.092+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:24:44.094+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:24:44.093+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:24:44.113+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:24:44.162+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:24:44.162+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:24:44.217+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:24:44.217+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:22:00+00:00, run_after=2025-06-30 21:24:00+00:00
+[2025-06-30T21:24:44.261+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.179 seconds
+[2025-06-30T21:25:14.933+0000] {processor.py:161} INFO - Started process (PID=3396) to work on /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:25:15.056+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-06-30T21:25:15.058+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:25:15.057+0000] {dagbag.py:538} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:25:15.241+0000] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-06-30T21:25:15.552+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:25:15.551+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-30T21:25:15.934+0000] {logging_mixin.py:188} INFO - [2025-06-30T21:25:15.934+0000] {dag.py:3823} INFO - Setting next_dagrun for example_sla_dag to 2025-06-30 21:22:00+00:00, run_after=2025-06-30 21:24:00+00:00
+[2025-06-30T21:25:16.064+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 1.176 seconds

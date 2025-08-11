@@ -1,0 +1,55 @@
+[2025-07-02T19:16:07.586+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jobmarket_etl_daily.run_transform_dbt scheduled__2025-07-01T06:00:00+00:00 [queued]>
+[2025-07-02T19:16:07.612+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jobmarket_etl_daily.run_transform_dbt scheduled__2025-07-01T06:00:00+00:00 [queued]>
+[2025-07-02T19:16:07.612+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2025-07-02T19:16:07.648+0000] {taskinstance.py:2191} INFO - Executing <Task(DockerOperator): run_transform_dbt> on 2025-07-01 06:00:00+00:00
+[2025-07-02T19:16:07.677+0000] {standard_task_runner.py:60} INFO - Started process 281 to run task
+[2025-07-02T19:16:07.701+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jobmarket_etl_daily', 'run_transform_dbt', 'scheduled__2025-07-01T06:00:00+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/job_market_daily.py', '--cfg-path', '/tmp/tmpic5c2qoc']
+[2025-07-02T19:16:07.709+0000] {standard_task_runner.py:88} INFO - Job 50: Subtask run_transform_dbt
+[2025-07-02T19:16:07.761+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2025-07-02T19:16:07.863+0000] {task_command.py:423} INFO - Running <TaskInstance: jobmarket_etl_daily.run_transform_dbt scheduled__2025-07-01T06:00:00+00:00 [running]> on host ffd29e670e5f
+[2025-07-02T19:16:08.008+0000] {abstractoperator.py:707} ERROR - Exception rendering Jinja template for task 'run_transform_dbt', field 'env_file'. Template: '/home/ilanlp/Projet_Ilan/Transform/DBT/.env'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 699, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 171, in render_template
+    template = jinja_env.get_template(value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 204, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/ilanlp/Projet_Ilan/Transform/DBT/.env
+[2025-07-02T19:16:08.011+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2334, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2465, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2877, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1241, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 699, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 171, in render_template
+    template = jinja_env.get_template(value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 204, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /home/ilanlp/Projet_Ilan/Transform/DBT/.env
+[2025-07-02T19:16:08.038+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=jobmarket_etl_daily, task_id=run_transform_dbt, execution_date=20250701T060000, start_date=20250702T191607, end_date=20250702T191608
+[2025-07-02T19:16:08.068+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 50 for task run_transform_dbt (/home/ilanlp/Projet_Ilan/Transform/DBT/.env; 281)
+[2025-07-02T19:16:08.115+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-02T19:16:08.192+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

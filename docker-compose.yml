@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  extract:
+    image: jobmarket-extract
+    container_name: jobmarket-extract
+    build:
+      context: ./Pipeline/Extract
+      dockerfile: Dockerfile
+    volumes:
+      - ./Pipeline/Extract/data:/app/data
+    env_file:
+      - ./Pipeline/Extract/.env
+
+  load:
+    image: jobmarket-load
+    container_name: jobmarket-load
+    build:
+      context: ./Pipeline/Load
+      dockerfile: Dockerfile
+    volumes:
+      - ./Pipeline/Extract/data:/app/data
+    env_file:
+      - ./Pipeline/Load/.env
+
+  transform:
+    image: jobmarket-dbt
+    container_name: jobmarket-dbt
+    build:
+      context: ./Pipeline/Transform/DBT
+      dockerfile: Dockerfile
+    env_file:
+      - ./Pipeline/Transform/DBT/.env
+    volumes:
+      - ./Pipeline/Transform/DBT/dbt:/app/dbt
+      - ./Pipeline/Transform/DBT/data:/app/data

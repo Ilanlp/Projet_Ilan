@@ -1,3 +1,6 @@
 .env
 .ipynb*
 venv/
+data/
+Extract/data/
+Pipeline/Extract/data/

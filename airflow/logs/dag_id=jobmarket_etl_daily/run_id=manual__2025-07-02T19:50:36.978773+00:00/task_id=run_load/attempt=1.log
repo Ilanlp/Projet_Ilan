@@ -1,0 +1,18 @@
+[2025-07-02T19:53:14.239+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jobmarket_etl_daily.run_load manual__2025-07-02T19:50:36.978773+00:00 [queued]>
+[2025-07-02T19:53:14.248+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jobmarket_etl_daily.run_load manual__2025-07-02T19:50:36.978773+00:00 [queued]>
+[2025-07-02T19:53:14.248+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-02T19:53:14.261+0000] {taskinstance.py:2191} INFO - Executing <Task(DockerOperator): run_load> on 2025-07-02 19:50:36.978773+00:00
+[2025-07-02T19:53:14.268+0000] {standard_task_runner.py:60} INFO - Started process 1574 to run task
+[2025-07-02T19:53:14.274+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'jobmarket_etl_daily', 'run_load', 'manual__2025-07-02T19:50:36.978773+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/job_market_daily.py', '--cfg-path', '/tmp/tmpf51p9h1g']
+[2025-07-02T19:53:14.277+0000] {standard_task_runner.py:88} INFO - Job 71: Subtask run_load
+[2025-07-02T19:53:14.294+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  SQL_ALCHEMY_CONN = conf.get("database", "SQL_ALCHEMY_CONN")
+
+[2025-07-02T19:53:14.331+0000] {task_command.py:423} INFO - Running <TaskInstance: jobmarket_etl_daily.run_load manual__2025-07-02T19:50:36.978773+00:00 [running]> on host ffd29e670e5f
+[2025-07-02T19:53:14.470+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ilan' AIRFLOW_CTX_DAG_ID='jobmarket_etl_daily' AIRFLOW_CTX_TASK_ID='run_load' AIRFLOW_CTX_EXECUTION_DATE='2025-07-02T19:50:36.978773+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-02T19:50:36.978773+00:00'
+[2025-07-02T19:53:14.552+0000] {docker.py:359} INFO - Starting docker container from image jobmarket-load
+[2025-07-02T19:53:53.461+0000] {docker.py:429} INFO - 📄 Fichier du jour détecté : data/data_normalized/normalized_job_offers_2025-07-02.csv
+✅ Insertion des offres du jour terminée avec succès.
+[2025-07-02T19:53:54.101+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=jobmarket_etl_daily, task_id=run_load, execution_date=20250702T195036, start_date=20250702T195314, end_date=20250702T195354
+[2025-07-02T19:53:54.202+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-02T19:53:54.328+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
